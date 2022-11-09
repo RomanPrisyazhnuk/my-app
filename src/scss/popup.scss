@@ -1,0 +1,78 @@
+.popup {
+  position: fixed;
+  width: 500px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  margin: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #c4c4c4;
+
+
+    &-title {
+      font-size: 24px;
+    }
+  }
+
+  &__content {
+    padding: 20px;
+
+    &-title {
+      font-size: 22px;
+      padding-bottom: 15px;
+      font-weight: 700;
+    }
+
+    &-name {
+      margin: 10px auto;
+      text-align: center;
+    }
+
+    &-title input {
+      font-size: 22px;
+      width: 80%;
+      padding: 5px;
+      border-radius: 5px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    &-description {
+      font-size: 18px;
+    }
+
+    &-text {
+      text-align: center;
+    }
+
+    &-description textarea {
+      font-size: 18px;
+      width: 80%;
+      padding: 5px;
+      border-radius: 5px;
+      display: block;
+      margin: 0 auto;
+      resize: none;
+    }
+
+    &-btn {
+      margin: 20px auto 0;
+      display: block;
+    }
+
+    &-buttons {
+      width: 100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 10px;
+    }
+  }
+}

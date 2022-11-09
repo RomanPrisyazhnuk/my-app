@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import "./scss/app.scss"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <span>
+          <div className='container'> dsvsvds</div>
           <span>Learn </span>
           <a
             className="App-link"
